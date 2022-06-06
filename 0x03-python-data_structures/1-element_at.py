@@ -9,5 +9,5 @@ def element_at(my_list, idx):
     else:
         while i < my_list_len:
             if idx == i:
-                return (my_list[i]
-                        i += 1
+                return (my_list[i])
+            i += 1
