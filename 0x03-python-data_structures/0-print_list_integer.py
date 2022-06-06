@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-print_list_integer = __import__('0-print_list_integer').print_list_integer
-
-my_list = [1, 2, 3, 4, 5]
-print_list_integer(my_list)
+def print_list_integer(my_list=[]):
+    i = 0
+    my_list_len = len(my_list)
+    while i < my_list_len:
+        print("{:d}".format(my_list[i]))
+        i += 1
