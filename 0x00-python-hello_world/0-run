@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-:wq
-
-=======
-#!/bin/bash
+!/bin/bash
 /usr/bin/python3 $PYFILE
->>>>>>> af42a3881c6ed7a76a2d80d62836395fa093d0fa
